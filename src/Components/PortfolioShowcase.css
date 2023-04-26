@@ -1,9 +1,9 @@
 .portfolio-showcase {
-    padding: 100px 0;
+    padding: 75px 0;
   }
   
-  .portfolio-showcase h2 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-  }
+.portfolio-showcase h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
