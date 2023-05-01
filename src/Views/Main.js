@@ -4,6 +4,7 @@ import Grabber from '../Components/Grabber_Content';
 import HeroSection from '../Components/HeroSection';
 import PortfolioShowcase from '../Components/PortfolioShowcase';
 import SkillsSection from '../Components/SkillsSection';
+import Footer from '../Components/Footer';
 
 function Main() {
   return (
@@ -12,6 +13,7 @@ function Main() {
     <HeroSection />
     <PortfolioShowcase />
     <SkillsSection />
+    <Footer />
     </>
   );
 }

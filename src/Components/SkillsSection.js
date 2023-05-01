@@ -1,6 +1,20 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./SkillsSection.css";
+import nginx from "../Img/nginx.png"
+import auth0 from "../Img/auth0.png"
+import aws from "../Img/aws.png"
+import bootstrap from "../Img/bootstrap.png"
+import crossdevice from "../Img/crossdevice.png"
+import fastapi from "../Img/fastapi.png"
+import git from "../Img/git.png"
+import html from "../Img/html.png"
+import react from "../Img/react.png"
+import restapi from "../Img/restapi.png"
+import sql from "../Img/sql.png"
+import javascript from "../Img/javascript.png"
+
+
 
 const Skill = ({ icon, name }) => (
   <Col xs={6} sm={4} md={3} lg={2} className="mb-4 text-center">
@@ -11,18 +25,18 @@ const Skill = ({ icon, name }) => (
 
 const SkillsSection = () => {
   const skills = [
-    { name: "React", icon: "path/to/react-icon.svg" },
-    { name: "FastAPI", icon: "path/to/fastapi-icon.svg" },
-    { name: "AWS", icon: "path/to/aws-icon.svg" },
-    { name: "Nginx", icon: "path/to/nginx-icon.svg" },
-    { name: "Bootstrap", icon: "path/to/bootstrap-icon.svg" },
-    { name: "Auth0", icon: "path/to/auth0-icon.svg" },
-    { name: "HTML/CSS", icon: "path/to/html-css-icon.svg" },
-    { name: "JavaScript", icon: "path/to/javascript-icon.svg" },
-    { name: "SQL", icon: "path/to/sql-icon.svg" },
-    { name: "Git", icon: "path/to/git-icon.svg" },
-    { name: "RESTful API", icon: "path/to/restful-api-icon.svg" },
-    { name: "Cross-device Compatibility", icon: "path/to/cross-device-icon.svg" },
+    { name: "React", icon: react },
+    { name: "FastAPI", icon: fastapi  },
+    { name: "AWS", icon: aws },
+    { name: "Nginx", icon: nginx },
+    { name: "Bootstrap", icon: bootstrap },
+    { name: "Auth0", icon: auth0 },
+    { name: "HTML/CSS", icon: html },
+    { name: "JavaScript", icon: javascript },
+    { name: "SQL", icon: sql },
+    { name: "Git", icon: git },
+    { name: "RESTful API", icon: restapi },
+    { name: "Cross-device Compatibility", icon: crossdevice },
   ];
 
   return (
