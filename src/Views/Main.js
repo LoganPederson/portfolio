@@ -9,7 +9,6 @@ import Footer from '../Components/Footer';
 function Main() {
   return (
     <>
-    <TopBar />
     <HeroSection />
     <PortfolioShowcase />
     <SkillsSection />

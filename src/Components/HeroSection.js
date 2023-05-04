@@ -15,16 +15,18 @@ const HeroSection = () => {
               Crafting exceptional web experiences with modern technologies.
             </p>
             <Button
-              className="mt-3"
+              className="button-spacing mt-3"
               variant="outline-primary"
-              href="#portfolio"
+              href="https://drive.google.com/file/d/1PQlBHHn1usXNO12lG_Wh8SA9u-OR6YdM/view?usp=sharing"
+              target="_blank"
             >
               View My Resume
             </Button>
             <Button
               className="mt-3"
               variant="outline-primary"
-              href="#portfolio"
+              href="https://www.github.com/loganpederson"
+              target="_blank"
             >
               View My Github
             </Button>
